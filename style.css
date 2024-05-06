@@ -1,0 +1,324 @@
+.header {
+    width: 100%;
+    height: 200px;
+    background-color: #00FFFF;
+    text-align: center;
+    border-radius: 0 0 80% 80% / 0px; 
+    position: relative;
+  }
+
+#logo {
+  width: 70px;
+  margin-top: 20px;
+}
+
+#title-header {
+  color: black;
+  margin-top: 10px;
+  font-family: 'Poppins', cursive;
+}
+
+.slider {
+  width: 95%;
+  margin-top: -30px;
+  text-align: center;
+  display: block;
+  margin-left: 10px;
+  }
+
+#slider1 {
+  border-radius: 10px;
+  text-align: center;
+}
+
+#background {
+  margin-top: -20px;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  z-index: -1;
+}
+
+.content {
+  width: 85%;
+  height: 200px;
+  background-color: white;
+  margin-top: 15px;
+  border-radius: 10px;
+  margin-left: 26px;
+  position: relative;
+  z-index: 5;
+}
+
+.box {
+  background: rgb(63,125,83);
+  background: linear-gradient(324deg, rgba(255,254,254,1) 0%, rgba(0,100,0,1) 31%);  border-radius: 7px;
+  width: 47px;
+  height: 47px;
+  margin-left: 25px;
+  margin-top: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.box img {
+  margin-top: 10px;
+  width: 37px;
+  height: 37px;
+  margin: 5px;
+}
+
+#row2 {
+  margin-top: -5px;
+}
+
+p {
+  font-size: 12px;
+  font-family: 'Poppins', cursive;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#title1 {
+  margin-left: 50px;
+}
+
+#title2 {
+  margin-left: 40px;
+}
+
+#title3 {
+  margin-left: 35px;
+}
+
+#title4 {
+  margin-left: 40px;
+}
+
+#title5 {
+  margin-left: 32px;
+}
+
+#title6 {
+  margin-left: 26px;
+}
+
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: #00FFFF;
+  text-align: center;
+  margin-top: -30px;
+  border-radius: 80% 80% 0 0 / 50px; 
+  position: relative;
+  z-index: 1;
+}
+
+#title-footer {
+  color: white;
+  margin-top: 50px;
+  font-size: 15px;
+  font-family: 'poppins', cursive;
+}
+
+#sosmed {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 17px;
+  margin-top: 5px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+
+    .slider {
+      width: 95%;
+      margin-top: -30px;
+      text-align: center;
+      margin-left: 15px;
+    }
+    
+    #slider1 {
+      border-radius: 30px;
+      text-align: center;
+    }
+    
+    .content {
+      margin-left: 80px;
+      margin-top: 20px;
+    }
+
+    p {
+      text-align: left;
+    }
+
+    .box {
+      margin-top: 26px;
+      margin-left: 50px;
+    }
+
+    #row2 {
+      margin-top: 0px;
+      margin-left: 50px;
+    }
+
+    #title1 {
+      margin-top: 5px;
+      margin-left: 57px;
+      text-align: center;
+    }
+    
+    #title2 {
+      margin-top: 5px;
+      margin-left:57px;
+      text-align: center;
+    }
+    
+    #title3 {
+      margin-top: 5px;
+      margin-left: 61px;
+      text-align: center;
+    }
+    
+    #title4 {
+      margin-top: 3px;
+      margin-left: 55px;
+      text-align: center;
+    }
+    
+    #title5 {
+      margin-top: 3px;
+      margin-left: 56px;
+      text-align: center;
+    }
+    
+    #title6 {
+      margin-top: 3px;
+      margin-left: 53px;
+      text-align: center;
+    }
+
+    #title-footer {
+      margin-top: 45px;
+    }
+
+    a {
+      color: white;
+    }
+
+
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    #background {
+      width: 1348px;
+      height: 900px;
+    }
+
+    .slider {
+      width: 80%;
+      margin-top: -30px;
+      text-align: center;
+      margin-left: 140px;
+    }
+    
+    #slider1 {
+      border-radius: 20px;
+      text-align: center;
+    }
+
+    .content {
+      margin-left: 180px;
+      margin-top: 20px;
+    }
+
+    p {
+      text-align: left;
+    }
+
+    .box {
+      margin-top: 35px;
+      margin-left: 100px;
+    }
+
+    #row2 {
+      margin-top: 40px;
+      margin-left: 100px;
+    }
+
+    #title1 {
+      margin-top: 40px;
+      margin-left: 50px;
+    }
+    
+    #title2 {
+      margin-top: 40px;
+      margin-left: 50px;
+    }
+    
+    #title3 {
+      margin-top: 40px;
+      margin-left: 50px;
+    }
+    
+    #title4 {
+      margin-top: 45px;
+      margin-left: 50px;
+    }
+    
+    #title5 {
+      margin-top: -40px;
+      margin-left: 183px;
+    }
+    
+    #title6 {
+      margin-top: -40px;
+      margin-left: 183px
+    }
+
+    #title-footer {
+      margin-top: 60px;
+    }
+
+  }
